@@ -1,9 +1,10 @@
 .ba-container {
-    max-width:1200px;
-    height: 1005px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 20px;
+   max-width: 1200px;
+   width: 100%;
+   height: auto;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding: 20px;
 }
 .ba-grid > [class*="ba-width-"] > img {
    display: block;
@@ -41,7 +42,7 @@
    height: auto;
 }
 .ba-container img:hover {
-   transform: scale(0.7);
+   transform: scale(0.9);
    transition: ease 0.5s;
    cursor: pointer;
            

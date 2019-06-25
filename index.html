@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="ba-grid.css"> 
     <title>Cahee</title>
 </head>
-<body link="black">
+<body>
 
     <header id="Home" class="header">
 
@@ -150,16 +150,18 @@
 
         <div class="subscribe">
             <div class="container">
-                 <p class="subscribe__item">Subscribe To Us</p>
-                 <p class="subscribe__item">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                 <form method="GET">
-                         
+                <div class="subscribe-wrap">
+                      <p class="subscribe__item">Subscribe To Us</p>
+                     <p class="subscribe__item">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                 </div> 
+
+                 <form method="GET" class="form">
+                        
                      <input type="text" name="email" placeholder="Your email address..." autofocus>
                      <input type="submit" value="Subscribe">
-                 </form>
-                 
-                                                     
-                 
+
+                 </form> 
+                         
                  
             </div>
            
@@ -222,7 +224,7 @@
                  <p class="paragraph__text paragraph__text_width">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
              </div>
 
-             <div class="form">
+             <div class="contact__form">
                  <form>
                      <input class="form__item"type="text" name="name" placeholder="Your name..." autofocus autocomplete>
                      <input class="form__item"type="email" name="email" placeholder="Your email..." autofocus autocomplete>
