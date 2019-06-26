@@ -80,6 +80,7 @@
     font-size: 90px;
     font-weight:bold;
     margin: 45px 0 55px 0;
+    line-height: 70px;
 }
 .paragraph__text {
     width: 70%;
@@ -139,8 +140,8 @@
     font-weight: bolder;
     font-size: 21px;
     position: absolute;
-    top:50px;
-    left:40px;
+    top:15%;
+    left:15%;
 
 }
 .card__info_background-image {
@@ -299,4 +300,5 @@
 .footer__red {
     color: #f12b55;
 }
+
 

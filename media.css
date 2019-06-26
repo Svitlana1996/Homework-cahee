@@ -1,0 +1,200 @@
+@media (min-width:480px) and (max-width:768px) {
+    .container {
+        width: 95%;
+    }
+    .header__main img {
+        width: 80px;
+        height: 30px;
+        left: 3%;
+        top: 7%;
+    }
+    .paragraph__heading_size {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .header .paragraph {
+        padding-top: 0;
+    }
+    .paragraph {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .paragraph__text_size {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .paragraph_position {
+        margin-top: 25%;
+    }
+    .button__item {
+        width: 110px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .header__menu {
+        margin-top: 20%;
+        float: left;
+        font-size: 14px;
+        height: auto;
+        width:45%;
+    }
+    .header__main {
+        margin-top: 15%;
+        width: 55%;
+    }
+    .menu__item {
+        padding: 3%;
+        display: block;
+        background-color: #ff6033;
+        width: 70%;
+        height: 40px;
+    }
+    .about {
+        height: 560px;
+        padding: 40px 0 40px 0;
+    }
+    .about__item {
+        display: inline-flex;
+        font-size: 14px;
+        line-height: 24px;
+        height: 100%;
+    }
+    .info__item:nth-child(1) {
+         font-size: 44px;
+         padding-bottom: 30px;
+         line-height: 36px;
+         text-align: center;
+    }
+    .services {
+        height: 600px;
+        padding: 40px 0 40px 0;
+    }
+    .services__picture, .services__menu {
+        min-height: 100%;
+    } 
+    .services__picture {
+        align-items: flex-start;
+        background-size: contain;
+    }  
+    .menu__list {
+        max-width: 250px;
+        width: 100%;
+       display: block;
+       border: 2px solid red;
+    }
+    .menu__button {
+        height: 80px;
+        background-color: antiquewhite;
+        font-size: 18px;
+        margin: 0;
+     }
+    .menu__button, .menu__logo {
+        border: none;
+        border-bottom: 1px solid black;
+        max-width: 250px;
+        width: 100%;
+     }
+    .menu__logo {
+        display: block;
+        height: 50px;
+        background-color: beige;
+    }
+    .paragraph__heading {
+        font-size: 40px;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 10px;
+        line-height: 38px;
+}
+    .gallery {
+        padding: 40px 0 40px 0;
+    }
+    .paragraph_color {
+     padding: 0;
+    }
+    .paragraph__text_length {
+        width: 100%;
+        max-width: 600px;
+    }
+    .ba-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding: 10px;
+    }
+    .ba-grid {
+        margin-left: -10px;
+    }
+    .ba-grid > [class*="ba-width-"] {
+        padding-left: 10px;
+    }
+    .ba-grid + .ba-grid {
+        margin-top: 10px;
+    }
+    .subscribe {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .subscribe-wrap {
+        width: 75%;
+    }
+    .subscribe__item:first-of-type {
+        padding-top: 0;
+    }
+    .subscribe input:nth-child(1) {
+        width: 70%;
+        height: 50px;
+    }
+    .subscribe input:nth-child(2) {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 5%;
+    }
+    .blog {
+        height: auto;
+    }
+    .card {
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .card__info {
+        margin-left: 0;
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .card__number {
+        left:13%;
+    }
+    .card__month {
+        left: 55px;
+    }
+    .contact {
+        height: 600px;
+        padding: 40px 0 40px 0;
+    }
+    .paragraph__text_width {
+        width: 50%;
+        margin-bottom: 7%;
+    }
+    .contact__form {
+        width: 55%;
+    }
+    .form__item_focus {
+        height: 150px;
+    }
+    .contact__info {
+        font-size: 16px;
+        width:40%;
+    }
+    .footer__info {
+        font-size: 12px;
+    }
+    .footer__info:nth-child(2) {
+        font-size: 20px;
+    }
+
+}

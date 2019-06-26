@@ -1,0 +1,45 @@
+@media (min-width:960px) and (max-width:1200px) {
+    .header__menu {
+        display: block;
+        float: right;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .menu__item {
+        width: 30%;
+        height: 60px;
+        background-color: #ff6033;
+        line-height: 60px;
+        margin: 5px;   
+        text-align: center;
+        padding: 0;
+    }
+    .info__item:nth-child(1) {
+        font-size: 80px;
+        padding-top:0;
+        padding-bottom: 40px;
+        line-height: 70px;
+        text-align: center;
+    }
+    .services__picture {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .services .paragraph__heading {
+        line-height: 70px;
+    } 
+    .subscribe {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }  
+    .card__month {
+        top: 15%;
+        left: 15%;
+    }   
+
+}

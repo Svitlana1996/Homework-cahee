@@ -1,0 +1,95 @@
+@media (min-width:768px) and (max-width:960px) {
+    .container {
+        width: 87%;
+    }
+    .header__main img {
+        width: 115px;
+        height: 40px;
+    }
+    .button__item {
+        width: 180px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .paragraph__heading {
+        font-size: 50px;
+    }
+    .paragraph_position {
+        margin-top: 15%;
+    }
+    .header__menu {
+        float: left;;
+        margin-top: 10%;
+    }
+    .menu__item {
+        width: 60%;
+        height: 50px;
+        background-color: #ff6033;
+        line-height: 50px;
+        margin: 8px;
+        text-align: center;
+        max-width: 250px;
+    }
+    .info__item:nth-child(1) {
+        font-size: 60px;
+    }
+    .services__picture, .services__menu {
+        min-height: 100%;
+    } 
+    .services__picture {
+        align-items: flex-start;
+        background-size: contain;
+    }  
+    .menu__list {
+        max-width: 330px;
+        width: 100%;
+        display: block;
+        border: 2px solid red;
+    }
+    .menu__button {
+        height: 80px;
+        background-color: antiquewhite;
+        font-size: 18px;
+        margin: 0;
+     }
+    .menu__button, .menu__logo {
+        border: none;
+        border-bottom: 1px solid black;
+        max-width: 330px;
+        width: 100%;
+     }
+    .menu__logo {
+        display: block;
+        height: 50px;
+        background-color: beige;
+    }
+    .ba-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding: 15px;
+    }
+    .ba-grid {
+        margin-left: -10px;
+    }
+    .ba-grid > [class*="ba-width-"] {
+        padding-left: 10px;
+    }
+    .ba-grid + .ba-grid {
+        margin-top: 10px;
+    }
+    .subscribe {
+       background-size: contain;
+       background-repeat: no-repeat;
+       background-position: bottom; 
+    }
+    .subscribe-wrap {
+        width: 75%;
+    }
+    .subscribe input:nth-child(2) {
+       font-size: 18px;
+    }
+    .card__month {
+        top: 15%;
+        left: 15%;
+    }
+}
