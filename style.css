@@ -300,5 +300,36 @@
 .footer__red {
     color: #f12b55;
 }
+.burger-menu {
+width: 60px;
+height: 60px;
+position: absolute;
+top: 10%;
+right: 0;
+display: none;
+background-image: url('img/burger.png');
+background-size: contain;
+background-repeat: no-repeat;
+}
+.burger-menu-active {
+width: 60px;
+height: 60px;
+position: absolute;
+display: none;
+top: 10%;
+right: 0;
+background-image: url('img/cross.png');
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+/* .gallery__options, .services__options {
+    display: none;
+} */
+.options-choice {
+    display: none;
+}
+
+
 
 
